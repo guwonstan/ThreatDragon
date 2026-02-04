@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "4da90e27-28a4-4e89-8b4c-b63e1b1e8845",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Authorization\nProvider",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -254,8 +255,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -281,6 +281,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -364,7 +365,6 @@
               ]
             },
             "id": "635ac355-f853-4fae-ab1d-54ae7ecba322",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -405,6 +405,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -502,8 +503,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "shape": "trust-boundary-curve",
@@ -637,6 +637,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -656,8 +657,8 @@
               "y": 22
             },
             "target": {
-              "x": 452,
-              "y": 482
+              "x": 450,
+              "y": 470
             },
             "vertices": [
               {
@@ -669,16 +670,65 @@
                 "y": 420
               }
             ],
-            "zIndex": 11
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
-              "x": 40,
-              "y": 300
+              "x": 79.99999999999994,
+              "y": 310.0000000000001
             },
             "size": {
               "width": 150,
-              "height": 90
+              "height": 130
             },
             "attrs": {
               "text": {
@@ -692,6 +742,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -775,7 +826,6 @@
               ]
             },
             "id": "e2125443-230e-4967-908c-075404214f3b",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Browser\nClient",
@@ -838,6 +888,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 14,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -871,8 +922,7 @@
                 "x": 380,
                 "y": 400
               }
-            ],
-            "zIndex": 14
+            ]
           },
           {
             "shape": "flow",
@@ -890,6 +940,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 15,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -911,7 +962,7 @@
             ],
             "id": "7536a8fd-8c31-42bc-a9f5-224f47ad5786",
             "source": {
-              "x": 562,
+              "x": 542,
               "y": 422
             },
             "target": {
@@ -920,11 +971,10 @@
             },
             "vertices": [
               {
-                "x": 260,
+                "x": 370,
                 "y": 422
               }
-            ],
-            "zIndex": 15
+            ]
           }
         ]
       }
